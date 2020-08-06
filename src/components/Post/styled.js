@@ -1,9 +1,10 @@
 import styled from "styled-components"
 
 export const Card = styled.div`
-    display: flex;
-    flex-direction: column;
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background: transparent;
     text-decoration: none;
     border-radius: .3rem;
