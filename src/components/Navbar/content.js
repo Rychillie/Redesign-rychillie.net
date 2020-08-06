@@ -1,15 +1,18 @@
 const links = [
     {
         label: "Portfolio",
-        url: "/portfolio/",
+        url: "/",
+        //change te link
     },
     {
         label: "Blog",
-        url: "/blog/",
+        url: "/",
+        //change te link
     },
     {
         label: "About",
-        url: "/about/",
+        url: "/",
+        //change te link
     },
 ]
 

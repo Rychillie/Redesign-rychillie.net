@@ -3,25 +3,44 @@ import styled from "styled-components"
 export const Card = styled.div`
     width: 100%;
     display: flex;
-    align-items: center;
     flex-direction: column;
     background: transparent;
     text-decoration: none;
-    border-radius: .3rem;
-    padding: .6rem 1rem;
-    margin: 0 0 1.2rem;
+    margin: 0 0 2rem;
     border-bottom: none;
     font-weight: 400;
-    background: hsla(225, 6%, 13%, .4);
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: calc(1.2rem + 100%);
+        height: calc(1rem + 100%);
+        background: transparent;
+        border-radius: .3rem;
+        z-index: -1;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        @media screen and (min-width: 800px) {
+            width: calc(1.8rem + 100%);
+            height: calc(1.4rem + 100%);
+        }
+    }
 
     &:hover {
-        background: #202124;
         cursor: pointer;
+
+        &:before {
+            background: #202124;
+        }
     }
 
     @media screen and (min-width: 800px) {
-        padding: 1rem 1.5rem;
         flex-direction: row;
+        align-items: center;
     }
 `
 
