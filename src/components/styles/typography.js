@@ -16,7 +16,11 @@ export const Text = styled.p`
     color: #949495;
     font-size: 1.1rem;
     font-weight: 400;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.2rem;
+
+    @media screen and (min-width: 800px) {
+        margin-bottom: 1.5rem;
+    }
 `
 
 export const PostTitle = styled.p`
