@@ -18,7 +18,7 @@ const Footer = () => (
                 </S.MenuFooterItem>
             ))}
         </S.MenuFooterList>
-        <S.Copy>© 2020 - Rychillie, developed with s<S.CopyLink href="https://www.gatsbyjs.org/"><S.Icon className={"gatsby"}><Gatsby /></S.Icon>GatsbyJS</S.CopyLink> and <S.CopyLink href="https://www.netlify.com/"><S.Icon className={"netlify"}><Netlify /></S.Icon>Netlify</S.CopyLink></S.Copy>
+        <S.Copy>© 2020 - Rychillie, developed with <S.CopyLink href="https://www.gatsbyjs.org/"><S.Icon className={"gatsby"}><Gatsby /></S.Icon>GatsbyJS</S.CopyLink> and <S.CopyLink href="https://www.netlify.com/"><S.Icon className={"netlify"}><Netlify /></S.Icon>Netlify</S.CopyLink></S.Copy>
     </S.MyFooter>
 )
 
