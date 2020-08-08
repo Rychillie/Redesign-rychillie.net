@@ -3,7 +3,7 @@ import React from "react"
 import links from "./content"
 import * as S from "./styled"
 
-const Navbar = ({ children }) => {
+const Navbar = () => {
     return (
         <S.Navbar>
             <S.MyLink to="/">

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
     display: flex;
     flex-direction: column-reverse;
     align-items: start;

@@ -60,6 +60,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1rem;
     line-height: 1.6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    overflow: auto;
   }
   img {
     display: block;

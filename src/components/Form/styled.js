@@ -69,6 +69,7 @@ export const TextArea = styled.textarea`
     border: none;
     color: #fff;
     flex: 1;
+    resize: vertical;
 
     @media screen and (min-width: 800px) {
         padding: 1rem 1.5rem;

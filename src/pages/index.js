@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
-import Navbar from "../components/Navbar"
 import Apresentation from "../components/Apresentation"
 import Post from "../components/Post"
 import Form from "../components/Form"
@@ -15,20 +14,9 @@ import * as E from "../components/styles/elements"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Navbar />
     <Apresentation />
     <E.Section>
       <T.Title>—  Latest</T.Title>
-      <E.ListPosts>
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-      </E.ListPosts>
-    </E.Section>
-    <E.Section>
-      <T.Title>—  Portfolio</T.Title>
       <E.ListPosts>
         <Post />
         <Post />

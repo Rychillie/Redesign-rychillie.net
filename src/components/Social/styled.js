@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const ListSocial = styled.div`
     width: 100%;
+    margin: 0 -.35rem;
 `
 
 export const ItemSocial = styled.a`
