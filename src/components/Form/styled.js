@@ -2,7 +2,13 @@ import styled from "styled-components"
 
 export const MyForm = styled.form``
 
-export const Label = styled.label``
+export const Label = styled.label`
+    font-size: 0;
+    line-height: 0;
+    opacity: 0;
+    height: 0;
+    width: 0;
+`
 
 export const Input = styled.input`
     background: #202124;
@@ -49,31 +55,32 @@ export const Line = styled.div`
     flex-direction: column;
     width: 100%;
 
+    textarea {
+        min-width: 100%;
+        flex: 1;
+    }
+
+    input {
+        flex: 1;
+    }
+
     label {
-        textarea, input {
-            min-width: 100%;
-            flex: 1;
-        }
+        width:  0;
+        height: 0;
     }
 
     @media screen and (min-width: 800px) {
         flex-direction: row;
 
-        label {
+        input {
             &:last-child {
                 margin-left: 1.2rem;
             }
+        }
 
-            &.textArea {
-                min-width: 100%;
-                margin-left: 0;
-            }
-
-
-            textarea, input {
-                min-width: 100%;
-                flex: 1;
-            }
+        textarea {
+            min-width: 100%;
+            flex: 1;
         }
     }
 `

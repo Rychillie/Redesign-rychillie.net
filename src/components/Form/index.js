@@ -8,18 +8,15 @@ const Form = () => {
             <S.Input type="hidden" name="form-name" value="Contact Form" />
 
             <S.Line>
-                <S.Label>
-                    <S.Input type="text" name="name" placeholder="Name" required/>
-                </S.Label>
-                <S.Label>
-                    <S.Input type="email" name="email" placeholder="Email" required/>
-                </S.Label>
+                <S.Label for={"name"}>Nome</S.Label>
+                <S.Input id={"name"} type="text" name="name" placeholder="Name" required/>
+                <S.Label for={"email"}>Email</S.Label>
+                <S.Input id={"email"} type="email" name="email" placeholder="Email" required/>
             </S.Line>
 
             <S.Line>
-                <S.Label className={"textArea"}>
-                    <S.TextArea name="message" placeholder="Mensagem" required/>
-                </S.Label>
+                <S.Label for={"message"}>Mensagem</S.Label>
+                <S.TextArea id={"message"} name="message" placeholder="Mensagem" required/>
             </S.Line>
 
             <S.Button type="submit">Enviar</S.Button>
