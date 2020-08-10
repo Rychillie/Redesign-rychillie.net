@@ -2,6 +2,8 @@ import styled from "styled-components"
 
 export const MyForm = styled.form``
 
+export const Label = styled.label``
+
 export const Input = styled.input`
     background: #202124;
     border-radius: .3rem;
@@ -47,12 +49,30 @@ export const Line = styled.div`
     flex-direction: column;
     width: 100%;
 
+    label {
+        textarea, input {
+            min-width: 100%;
+            flex: 1;
+        }
+    }
+
     @media screen and (min-width: 800px) {
         flex-direction: row;
 
-        input {
+        label {
             &:last-child {
                 margin-left: 1.2rem;
+            }
+
+            &.textArea {
+                min-width: 100%;
+                margin-left: 0;
+            }
+
+
+            textarea, input {
+                min-width: 100%;
+                flex: 1;
             }
         }
     }
@@ -68,8 +88,9 @@ export const TextArea = styled.textarea`
     font-size: .95rem;
     border: none;
     color: #fff;
-    flex: 1;
     resize: vertical;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    flex: 1;
 
     @media screen and (min-width: 800px) {
         padding: 1rem 1.5rem;

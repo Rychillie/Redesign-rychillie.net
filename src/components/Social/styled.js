@@ -39,7 +39,7 @@ export const ItemSocial = styled.a`
     }
 
     &.instagram {
-        background: rgba(193, 193, 193, 0.1);
+        background: rgba(193, 193, 193, 0.06);
         -webkit-text-fill-color: #FFF;
         color: #FFF;
 
@@ -49,28 +49,27 @@ export const ItemSocial = styled.a`
     }
 
     &.twitter {
-        background: rgba(0,119,181,.1);
-        -webkit-text-fill-color: #0077b5;
-        color: #0077b5;
+        background: rgba(0, 168, 255, .04);
+        -webkit-text-fill-color: #00a8ff;
+        color: #00a8ff;
 
         svg {
-            fill: rgb(0, 119, 181);
-            width: 21px;
+            fill: rgb(0, 168, 255);
         }
     }
 
     &.linkedin {
-        background: rgba(0,119,181,.1);
-        -webkit-text-fill-color: #0077b5;
-        color: #0077b5;
+        background: rgba(0, 168, 255, .04);
+        -webkit-text-fill-color: #00a8ff;
+        color: #00a8ff;
 
         svg {
-            fill: rgb(0, 119, 181);
+            fill: rgb(0, 168, 255);
         }
     }
 
     &.github {
-        background: rgba(193, 193, 193, 0.1);
+        background: rgba(193, 193, 193, 0.06);
         -webkit-text-fill-color: #FFF;
         color: #FFF;
 
@@ -80,17 +79,17 @@ export const ItemSocial = styled.a`
     }
 
     &.twitch {
-        background: rgba(100, 65, 164, 0.1);
-        -webkit-text-fill-color: #6441a5;
-        color: #6441a5;
+        background: rgba(157, 104, 255, .04);
+        -webkit-text-fill-color: #9d68ff;
+        color: #9d68ff;
 
         svg {
-            fill: #6441a5;
+            fill: #9d68ff;
         }
     }
 
     &.youtube {
-        background: rgba(255,65,66,.1);
+        background: rgba(255,65,66,.08);
         -webkit-text-fill-color: #FF4142;
         color: #FF4142;
 
@@ -100,13 +99,12 @@ export const ItemSocial = styled.a`
     }
 
     &.telegram {
-        background: rgba(0,119,181,.1);
-        -webkit-text-fill-color: #0077b5;
-        color: #0077b5;
+        background: rgba(0, 168, 255, .04);
+        -webkit-text-fill-color: #00a8ff;
+        color: #00a8ff;
 
         svg {
-            fill: rgb(0, 119, 181);
-            width: 21px;
+            fill: rgb(0, 168, 255);
         }
     }
 `
