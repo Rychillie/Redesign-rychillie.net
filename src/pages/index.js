@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 import Apresentation from "../components/Apresentation"
-import Post from "../components/Post"
+import Post from "../components/Posts/Post"
 import Form from "../components/Form"
 import Social from "../components/Social"
 
@@ -16,7 +16,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Apresentation />
     <E.Section>
-      <T.Title>—  Latest</T.Title>
+      <T.Title>— Latest</T.Title>
       <E.ListPosts>
         <Post />
         <Post />
@@ -26,11 +26,14 @@ const IndexPage = () => (
       </E.ListPosts>
     </E.Section>
     <E.Section>
-      <T.Title>—  Contact</T.Title>
+      <T.Title>— Contact</T.Title>
       <E.Contact>
         <E.Left>
-          <T.Text>Talk to me through my social networks or the contact form, no need to worry because I will get back to you as soon as possible.</T.Text>
-        <Social />
+          <T.Text>
+            Talk to me through my social networks or the contact form, no need
+            to worry because I will get back to you as soon as possible.
+          </T.Text>
+          <Social />
         </E.Left>
         <E.Right>
           <Form />
