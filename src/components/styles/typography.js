@@ -48,7 +48,7 @@ export const PostTitle = styled.p`
 
 export const PostSmall = styled.small`
   color: #949495;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: 400;
 `
 
