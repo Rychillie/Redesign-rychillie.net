@@ -1,7 +1,7 @@
 import React from "react"
 
 import * as S from "./styled"
-import * as T from "../../styles/typography"
+import * as T from "../styles/typography"
 
 const Post = () => {
   return (

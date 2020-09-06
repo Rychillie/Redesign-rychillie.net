@@ -3,27 +3,18 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
-import Apresentation from "../components/Apresentation"
-import Post from "../components/Post"
+import Avatar from "../components/Avatar"
 import Form from "../components/Form"
 import Social from "../components/Social"
 
 import * as T from "../components/styles/typography"
 import * as E from "../components/styles/elements"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <Apresentation />
+    <SEO title="About" />
     <E.Section>
-      <T.Title>— Latest</T.Title>
-      <E.ListPosts>
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-      </E.ListPosts>
+      <Avatar />
     </E.Section>
     <E.Section>
       <T.Title>— Contact</T.Title>
@@ -43,4 +34,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default AboutPage
