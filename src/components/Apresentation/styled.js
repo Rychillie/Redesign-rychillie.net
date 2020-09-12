@@ -30,7 +30,7 @@ export const MyLink = styled(Link)`
   font-weight: 700;
 
   &:hover {
-    color: #e1e1e1;
-    background: linear-gradient(transparent 70%, #636e9a 0);
+    color: #fff;
+    background: linear-gradient(transparent 70%, rgba(193, 193, 193, 0.4) 0);
   }
 `
