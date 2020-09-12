@@ -4,6 +4,10 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+
+  @media screen and (min-width: 800px) {
+    margin-bottom: 3.5rem;
+  }
 `
 
 export const Left = styled.div``

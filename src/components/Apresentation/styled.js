@@ -5,10 +5,11 @@ export const Wrapper = styled.section`
   display: flex;
   flex-direction: column-reverse;
   align-items: start;
-  margin-bottom: 2rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 
   @media screen and (min-width: 800px) {
+    margin-bottom: 3.5rem;
     align-items: center;
     flex-direction: row;
   }
