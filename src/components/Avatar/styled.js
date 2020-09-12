@@ -7,10 +7,12 @@ export const AvatarWrapper = styled(Img)`
   margin-bottom: 1rem;
   min-height: 200px;
   min-width: 200px;
+  max-width: 200px;
 
   @media screen and (min-width: 800px) {
     margin-bottom: 0;
     min-height: 360px;
     min-width: 360px;
+    max-width: 360px;
   }
 `

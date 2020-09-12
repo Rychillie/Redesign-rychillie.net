@@ -29,7 +29,9 @@ const IndexPage = () => (
       </E.ListPosts>
     </E.Section>
     <E.Section>
-      <T.Title>— Contact</T.Title>
+      <E.Row className={"marginBottom"}>
+        <T.Title>— Contact</T.Title>
+      </E.Row>
       <E.Contact>
         <E.Left>
           <T.Text>

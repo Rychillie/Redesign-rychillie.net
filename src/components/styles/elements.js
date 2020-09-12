@@ -44,6 +44,24 @@ export const Row = styled.div`
   flex-direction: row;
   align-items: center;
 
+  .gatsby-image-wrapper {
+    @media screen and (min-width: 800px) {
+      margin-right: 2.5rem;
+    }
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  &.column {
+    flex-direction: column;
+
+    @media screen and (min-width: 800px) {
+      flex-direction: row;
+    }
+  }
+
   &.spaceBetween {
     justify-content: space-between;
   }
@@ -53,6 +71,14 @@ export const Row = styled.div`
 
     @media screen and (min-width: 800px) {
       margin-bottom: 1.2rem;
+    }
+  }
+
+  &.bigMarginBottom {
+    margin-bottom: 3.5rem;
+
+    @media screen and (min-width: 800px) {
+      margin-bottom: 4rem;
     }
   }
 `

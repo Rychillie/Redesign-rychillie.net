@@ -9,6 +9,14 @@ export const Title = styled.p`
     font-size: 1.8rem;
     line-height: 1.1;
   }
+
+  &.margin {
+    margin-bottom: 1.2rem;
+
+    @media screen and (min-width: 800px) {
+      margin-bottom: 1.5rem;
+    }
+  }
 `
 
 export const Text = styled.p`
