@@ -4,10 +4,10 @@ import { Link } from "gatsby"
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 
   @media screen and (min-width: 800px) {
-    margin-bottom: 3.5rem;
+    margin-bottom: 4rem;
   }
 `
 
@@ -49,7 +49,11 @@ export const Row = styled.div`
   }
 
   &.marginBottom {
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
+
+    @media screen and (min-width: 800px) {
+      margin-bottom: 1.2rem;
+    }
   }
 `
 
@@ -58,7 +62,6 @@ export const ViewLink = styled(Link)`
   font-weight: 500;
   background: rgba(193, 193, 193, 0.06);
   color: #fff;
-  margin: 0.2rem;
   padding: 0.6rem 1.2rem;
   font-size: 0.8rem;
   border-radius: 3rem;

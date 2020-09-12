@@ -1,15 +1,15 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-export const Wrapper = styled.section`
+export const Wrapper = styled.header`
   display: flex;
   flex-direction: column-reverse;
   align-items: start;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 
   @media screen and (min-width: 800px) {
-    margin-bottom: 3.5rem;
+    margin-bottom: 4rem;
     align-items: center;
     flex-direction: row;
   }
