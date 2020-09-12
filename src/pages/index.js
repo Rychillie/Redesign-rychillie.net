@@ -16,7 +16,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Apresentation />
     <E.Section>
-      <T.Title>— Latest</T.Title>
+      <E.Row className={"spaceBetween marginBottom"}>
+        <T.Title>— Latest</T.Title>
+        <E.ViewLink>View all</E.ViewLink>
+      </E.Row>
       <E.ListPosts>
         <Post />
         <Post />

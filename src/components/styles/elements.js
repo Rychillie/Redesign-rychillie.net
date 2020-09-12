@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 export const Section = styled.section`
   display: flex;
@@ -35,5 +36,38 @@ export const Contact = styled.div`
       margin-top: 0;
       margin-left: 2rem;
     }
+  }
+`
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &.spaceBetween {
+    justify-content: space-between;
+  }
+
+  &.marginBottom {
+    margin-bottom: 2rem;
+  }
+`
+
+export const ViewLink = styled(Link)`
+  display: flex;
+  font-weight: 500;
+  background: rgba(193, 193, 193, 0.06);
+  color: #fff;
+  margin: 0.2rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.8rem;
+  border-radius: 3rem;
+  border-bottom: 0;
+  white-space: nowrap;
+  line-height: 1;
+  cursor: pointer;
+
+  &:hover {
+    background: #202124;
   }
 `

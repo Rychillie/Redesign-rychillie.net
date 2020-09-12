@@ -3,7 +3,6 @@ import styled from "styled-components"
 export const Title = styled.p`
   font-weight: 600;
   font-size: 1.4rem;
-  margin-bottom: 2rem;
   line-height: 1.2;
 
   @media screen and (min-width: 800px) {
