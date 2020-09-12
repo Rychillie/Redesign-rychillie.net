@@ -11,9 +11,9 @@ const Post = () => {
         PicPay Clone - React-Native & Styled Components
       </T.PostTitle>
       <S.ListTags>
-        <S.Tag className={"javascript"}>Javascript</S.Tag>
-        <S.Tag className={"reactjs"}>ReactJS</S.Tag>
-        <S.Tag className={"react-native"}>React-Native</S.Tag>
+        <S.Tag>Javascript</S.Tag>
+        <S.Tag>ReactJS</S.Tag>
+        <S.Tag>React-Native</S.Tag>
       </S.ListTags>
     </S.Card>
   )
